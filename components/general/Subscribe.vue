@@ -1,0 +1,21 @@
+<template>
+  <div class="d-flex justify-between my-3 mt-10 input-box align-center">
+  <input class="search_container px-3 flex-grow-1" placeholder="Enter your email"/>
+  <span class="search_icon d-flex justify-center"> 
+     <Button button_text="Subscribe" size="large"/>
+  </span>
+</div>
+</template>
+
+<script>
+import Button from '@/components/general/Button'
+export default {
+    components: {
+        Button
+    }
+}
+</script>
+
+<style scoped>
+
+</style>
