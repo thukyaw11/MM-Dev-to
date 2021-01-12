@@ -33,9 +33,9 @@ export default {
     
 }
 .blog_img_container {
-    height: 50%;
+    height: 60%;
     width: 100%;
-    background: blue;
+    background: grey;
 }
 .blog_img {
     height: 100%;

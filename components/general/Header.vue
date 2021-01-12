@@ -5,7 +5,9 @@
   <h1> <span class="font-weight-light">MM</span> <b>DEV.TO</b></h1>
   </NuxtLink>
   <div class="d-flex justify-space-between align-center">
+    <NuxtLink to="/about" style="text-decoration: none; color: black">
     <span class="about-btn mr-3">About</span>
+    </NuxtLink>
     <Button button_text="Write Blog"/>  
   </div>
 </div>

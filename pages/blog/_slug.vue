@@ -1,7 +1,6 @@
 <template>
   <div class="mt-5">
       <img :src="article.img" alt="" class="blog_view_image">
-      {{url}}
         <BlogHeader :blog_title="article.title" class="mt-4" :slugs="tagsList" :url="url"/>
               <nuxt-content :document="article" />
               <PreNext :prev="prev" :next="next"/>
@@ -47,7 +46,7 @@ export default {
             return 'Myanmar Version of Dev.to'
         },
          url() {
-            return process.env.BASE_URL + this.$route.fullPath
+            return 'https://dev-to-mm.netlify.app' + this.$route.fullPath
         },
         img() {
             if(this.article) return this.article.img
@@ -91,7 +90,7 @@ head() {
 <style scoped>
 .blog_view_image {
     width: 100%;
-    height: 350px;
+    height: 400px;
 }
 
 </style>
