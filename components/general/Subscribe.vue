@@ -8,6 +8,7 @@
   </span>
 </div>
 <small class="text--secondary">we will send an information once I upload a new post. It is free</small>
+<small style="color: red">** Will implement later with node :))</small>
 </div>
 </template>
 

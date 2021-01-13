@@ -1,9 +1,9 @@
 <template>
   <div class="blog_header_info d-flex justify-space-between">
       <div>
-      <h1>{{blog_title}}</h1>
+      <h1 class="font-weight-bold"> {{blog_title}}</h1>
 
-        <p class="text--secondary mt-3">12:00 AM - Jan 7, 2100</p>
+        <p class="text--secondary mt-3" v-if="blog_created_time">{{blog_created_time}}</p>
         <div v-for="(slug, i) in slugs" :key="i">
         <NuxtLink style="text-decoration: none"  :to="`/blog/tag/${slug.slug}`" class="tag">
             <p class="text--secondary"> # {{slug.name}}</p>

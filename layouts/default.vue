@@ -25,9 +25,9 @@ export default {
 
 
 <style>
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 /* width */
 ::-webkit-scrollbar {
   width: 3px;

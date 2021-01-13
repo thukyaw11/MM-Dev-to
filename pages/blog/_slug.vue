@@ -1,7 +1,10 @@
 <template>
   <div class="mt-5">
+    <div class="d-flex justify-center">
       <img :src="article.img" alt="" class="blog_view_image">
-        <BlogHeader :blog_title="article.title" class="mt-4" :slugs="tagsList" :url="url"/>
+
+    </div>
+        <BlogHeader :blog_title="article.title" class="mt-4" :slugs="tagsList" :url="url" :blog_created_time="article.date ? article.date : ''"/>
               <nuxt-content :document="article" />
               <PreNext :prev="prev" :next="next"/>
   </div>
@@ -89,8 +92,9 @@ head() {
 
 <style scoped>
 .blog_view_image {
-    width: 100%;
-    height: 400px;
+  max-width: 100%;
+    /* width: 70%; */
+    max-height: 400px;
 }
-
+img { max-width: 100%; }
 </style>
