@@ -8,7 +8,10 @@
     <NuxtLink to="/about" style="text-decoration: none; color: black">
     <span class="about-btn mr-3">About</span>
     </NuxtLink>
+    <a href="https://github.com/thukyaw11/MM-Dev-to" target="blank" style="text-decoration: none">
     <Button button_text="Write Blog"/>  
+    
+    </a>
   </div>
 </div>
 

@@ -16,9 +16,11 @@
               </div>
               <div class="how-to mt-5">
                   Want to post a blog here? <br class="d-block d-lg-none">
-                  <NuxtLink to="/howto" style="color: black">
+                  <a href="https://github.com/thukyaw11/MM-Dev-to" style="color: black" target="blank">
                     <span class="text-decoration-underline"><b>Check here how to contribute!</b> </span> 
-                  </NuxtLink>
+
+                  </a>
+              
               </div>
           </div>
           </v-col>
