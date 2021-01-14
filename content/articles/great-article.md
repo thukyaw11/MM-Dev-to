@@ -1,4 +1,5 @@
 ---
+postId: 3
 title: Blog Title
 description: I am a description of a great article
 img: https://images.unsplash.com/photo-1588514727390-91fd5ebaef81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=639&q=80

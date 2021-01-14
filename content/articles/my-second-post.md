@@ -1,4 +1,5 @@
 ---
+postId: 7
 title: Sor kyi bel kwa
 description: Learning how to kyi sor
 img: https://images.unsplash.com/photo-1588432415392-51f6e1a61d5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80

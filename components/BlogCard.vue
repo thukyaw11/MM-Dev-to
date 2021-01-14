@@ -5,13 +5,17 @@
           <img class="blog_img" :src="blog.img"/>
       </div>
 
-      <div class="author_container d-flex align-center py-3 pb-1">
+      <div class="author_container d-flex align-center py-3 pb-1 justify-space-between">
           <NuxtLink :to="`/blog/author/${blog.author.name}`" style="text-decoration: none; color: black;" class="d-flex align-center">
 
           <img class="author_img" :src="blog.author.img">
           <div class="author_name ml-3">{{blog.author.name}}</div>
           
           </NuxtLink>
+
+          <div class="view text--secondary">
+              {{postView ? postView : 0 }} views
+          </div>
       </div>
             <div class="info_container d-flex flex-column my-5 mx-2">
           <div class="title_custom">{{blog.title}}</div>
@@ -28,6 +32,10 @@ export default {
     props: {
         blog: { 
             type: Object
+        },
+        postView: {
+            type: Number,
+            default: null
         }
     }
 }

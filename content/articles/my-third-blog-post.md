@@ -1,4 +1,5 @@
 ---
+postId: 8
 title: My Third Blog Post
 description: Bel kyi sor lote nee
 img: https://images.unsplash.com/photo-1588010986054-727675e6f36a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60

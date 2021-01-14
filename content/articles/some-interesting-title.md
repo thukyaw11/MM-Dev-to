@@ -1,4 +1,5 @@
 ---
+postId: 9
 title: Some Interesting title
 description: Srr bel gyi lote nee
 img: https://images.unsplash.com/photo-1588336271629-1704e27ef8be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2158&q=80

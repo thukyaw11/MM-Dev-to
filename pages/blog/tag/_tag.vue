@@ -1,6 +1,8 @@
 <template>
   <div class="container">
     <div class="d-flex justify-space-between">
+    <h3 class="my-5"># {{uppercase(tag.name)}}</h3>
+
       <ShareNetwork
     network="facebook"
     :url="url"
@@ -13,7 +15,6 @@
     <Button button_text="Share"/>
 </ShareNetwork>
     </div>
-    <h3 class="my-5"># {{uppercase(tag.name)}}</h3>
         <div class="blog_container mt-3">
       <v-row v-if="articles.length">
         <v-col cols="12" md="4" v-for="(item, index) in articles" :key="index">
@@ -96,7 +97,7 @@ methods : {
             return 'https://dev-to-mm.netlify.app' + this.$route.fullPath
       },
       img() {
-        if(this.tag) return `https://textoverimage.moesif.com/image?image_url=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F08%2Fed%2F3a%2F08ed3a37713c50fe0eeeb4b78dd00096.jpg&text=${this.tag.name}&text_size=128&margin=1&y_align=middle&x_align=center`
+        if(this.tag) return `https://textoverimage.moesif.com/image?image_url=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F08%2Fed%2F3a%2F08ed3a37713c50fe0eeeb4b78dd00096.jpg&text=${this.uppercase(this.tag.name)}&text_size=128&margin=1&y_align=middle&x_align=center`
       }
     }
 }

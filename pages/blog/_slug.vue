@@ -16,6 +16,7 @@
 import BlogHeader from '@/components/general/BlogHeader.vue'
 import PreNext from '@/components/general/PreNext.vue'
 import AuthorInfo from '@/components/AuthorInfo.vue'
+import View from '@/api/services/View.js'
 export default {
     
     components: {
@@ -24,6 +25,7 @@ export default {
         AuthorInfo
     },
   async asyncData({ $content, params }) {
+    console.log('fetching')
     const article = await $content('articles', params.slug).fetch()
     const tagsList = await $content('tags')
       .only(['name', 'slug'])
@@ -37,6 +39,10 @@ export default {
       .fetch()
 
       const { author } = article
+
+        View.view({
+          post_id: article.postId
+        })
     return {
         tagsList,
         author,
@@ -62,6 +68,10 @@ export default {
             if(this.article) return this.article.img
         }
   },
+
+destroyed() {
+  console.log('destroyed')
+},
 head() {
   return {
     title: this.article.title,

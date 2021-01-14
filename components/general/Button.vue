@@ -18,10 +18,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .button_container {
     color: #fff;
     background: #000;
+    text-align: center;
     cursor: pointer;
       -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -31,7 +32,7 @@ export default {
             user-select: none; 
 }
 .normal{
-    height: 32px;
+    height: 35px;
     width: auto;
     font-size: 15px;
 }
