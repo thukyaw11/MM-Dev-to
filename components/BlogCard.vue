@@ -4,7 +4,16 @@
       <div class="blog_img_container">
           <img class="blog_img" :src="blog.img"/>
       </div>
-      <div class="info_container d-flex flex-column my-5 mx-2">
+
+      <div class="author_container d-flex align-center py-3 pb-1">
+          <NuxtLink :to="`/blog/author/${blog.author.name}`" style="text-decoration: none; color: black;" class="d-flex align-center">
+
+          <img class="author_img" :src="blog.author.img">
+          <div class="author_name ml-3">{{blog.author.name}}</div>
+          
+          </NuxtLink>
+      </div>
+            <div class="info_container d-flex flex-column my-5 mx-2">
           <div class="title_custom">{{blog.title}}</div>
           <div class="body_custom text--secondary pt-2">
               {{blog.description}}
@@ -28,7 +37,7 @@ export default {
 .blog_card_container {
     height: 400px;
     width: 100%;
-    background: #fff;
+    background:#fff;
     cursor: pointer;
     
 }
@@ -43,5 +52,13 @@ export default {
 }
 .title_custom, .body_custom {
       font-family: "Poppins";
+}
+.info_container {
+    min-height: 50px;
+}
+.author_img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 </style>

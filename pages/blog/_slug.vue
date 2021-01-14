@@ -7,17 +7,21 @@
         <BlogHeader :blog_title="article.title" class="mt-4" :slugs="tagsList" :url="url" :blog_created_time="article.date ? article.date : ''"/>
               <nuxt-content :document="article" />
               <PreNext :prev="prev" :next="next"/>
+      <AuthorInfo :author="author"/>
+
   </div>
 </template>
 
 <script>
 import BlogHeader from '@/components/general/BlogHeader.vue'
 import PreNext from '@/components/general/PreNext.vue'
+import AuthorInfo from '@/components/AuthorInfo.vue'
 export default {
     
     components: {
         BlogHeader,
-        PreNext
+        PreNext,
+        AuthorInfo
     },
   async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
@@ -31,8 +35,11 @@ export default {
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
       .fetch()
+
+      const { author } = article
     return {
         tagsList,
+        author,
       article,
       tags,
       prev,

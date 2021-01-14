@@ -48,6 +48,8 @@ export default {
                 theme: 'prism-themes/themes/prism-material-oceanic.css'
             }
         },
+        nestedProperties: ['author.name']
+
     },
 
     // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
