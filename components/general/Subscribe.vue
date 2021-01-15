@@ -115,6 +115,22 @@ export default {
       }).catch(err => {
         console.log(`err on fetching ip : ${err}`)
       })
+
+
+
+      setTimeout(() => {
+                if(process.browser){
+                  if(localStorage.getItem('subscribe_alert')){
+                    return
+                  }
+                  else  {
+                  this.modalVisible = true;
+                  localStorage.setItem('subscribe_alert', true)
+                  }
+
+                }
+
+      }, 3000);
     },
     computed: {
 

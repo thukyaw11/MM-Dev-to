@@ -34,7 +34,6 @@ export default {
             type: Object
         },
         postView: {
-            type: Number,
             default: null
         }
     }

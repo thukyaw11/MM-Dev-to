@@ -1,5 +1,5 @@
 <template>
-  <div class="author_info_container d-flex justify-space-between px-3 align-center">
+  <div class="author_info_container d-flex justify-space-between px-3 py-2 align-center">
       <div class="d-flex">
 
           <NuxtLink :to="`/blog/author/${author.name}`" style="text-decoration: none; color: black;" class="d-flex align-center">
