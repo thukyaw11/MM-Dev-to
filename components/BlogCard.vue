@@ -14,7 +14,7 @@
           </NuxtLink>
 
           <div class="view text--secondary">
-              {{postView ? postView : 0 }} views
+              {{postView ? postView : '' }} {{postView ? 'views' : ''}}
           </div>
       </div>
             <div class="info_container d-flex flex-column my-5 mx-2">

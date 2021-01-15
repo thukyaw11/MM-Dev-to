@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="btn_parent_container mt-3">
-  <div class="button_container px-2 d-flex align-center justify-center normal" @click="openModal()">
+  <div class="button_container px-2 d-flex align-center justify-center normal">
       {{ isSub ? 'Subscribed' : 'Subscribe'}}
   </div>
   </div>
@@ -119,22 +119,19 @@ export default {
       }).catch(err => {
         console.log(`err on fetching ip : ${err}`)
       })
+      // setTimeout(() => {
+      //           if(process.browser){
+      //             if(localStorage.getItem('subscribe_alert')){
+      //               return
+      //             }
+      //             else  {
+      //             this.modalVisible = true;
+      //             localStorage.setItem('subscribe_alert', true)
+      //             }
 
+      //           }
 
-
-      setTimeout(() => {
-                if(process.browser){
-                  if(localStorage.getItem('subscribe_alert')){
-                    return
-                  }
-                  else  {
-                  this.modalVisible = true;
-                  localStorage.setItem('subscribe_alert', true)
-                  }
-
-                }
-
-      }, 3000);
+      // }, 3000);
     },
     computed: {
 
