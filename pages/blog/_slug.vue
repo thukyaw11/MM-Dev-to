@@ -53,7 +53,7 @@ export default {
   mounted() {
        View.view({
           post_id: this.article.postId
-        }).then(() => console.log("view count"))
+        })
   },
   computed:{
         title() {
@@ -72,9 +72,6 @@ export default {
         }
   },
 
-destroyed() {
-  console.log('destroyed')
-},
 head() {
   return {
     title: this.article.title,

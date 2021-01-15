@@ -89,6 +89,10 @@ export default {
           localStorage.setItem('subscribed', true);
 
           }
+        }).catch(err => {
+            this.setLoading(false);
+            this.setComplete(true);
+            this.modalVisible = false;
         })
       },
       setError(text){
@@ -136,7 +140,7 @@ export default {
 
       isSub() {
         if(process.browser){
-   if(localStorage.getItem('subscribed')) {
+         if(localStorage.getItem('subscribed')) {
         return true
       }
       return false
