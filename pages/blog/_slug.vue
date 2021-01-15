@@ -40,9 +40,7 @@ export default {
 
       const { author } = article
 
-        View.view({
-          post_id: article.postId
-        })
+ 
     return {
         tagsList,
         author,
@@ -51,6 +49,11 @@ export default {
       prev,
       next
     }
+  },
+  mounted() {
+       View.view({
+          post_id: this.article.postId
+        }).then(() => console.log("view count"))
   },
   computed:{
         title() {
