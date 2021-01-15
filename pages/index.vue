@@ -63,6 +63,8 @@ export default {
     View.getAllViews().then(({data}) => this.blogView = data).then(() => {
     this.getView()
 
+    }).catch(err => {
+      console.log(err)
     })
     
   }
