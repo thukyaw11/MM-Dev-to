@@ -107,11 +107,18 @@ head() {
 }
 </script>
 
-<style scoped>
+<style>
 .blog_view_image {
   max-width: 100%;
     /* width: 70%; */
     max-height: 400px;
 }
-img { max-width: 100%; }
+.c_img_container { max-width: 100%; }
+
+
+@media screen and (min-width: 480px) {
+.c_img_container { width: 600px;
+margin: 0 auto; }
+  
+}
 </style>

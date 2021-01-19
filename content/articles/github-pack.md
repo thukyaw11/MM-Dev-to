@@ -20,7 +20,10 @@ edu mail တစ်ခု ရှိရပါမယ်။ ကိုယ့် uni �
 
 ## Name.com
 
-<img src="https://d1hoh05jeo8jse.cloudfront.net/media/apps/namecom.jpg" alt="image" width="330">
+<div class="c_img_container">
+<img src="https://d1hoh05jeo8jse.cloudfront.net/media/apps/namecom.jpg" alt="image" width="100%">
+</div>
+
 
 name.com က domain ပါ။ domain တစ်ခုကို ကိုယ်ကြိုက်တဲ့ extension နဲ့ 1 yr free ရပါတယ်။ အပြင်မှာဆို မရှိဘူးဆိုရင်တောင် .com က ၁၄၀၀၀ လောက်ကစပါတယ်။ ကျွန်တော်ကတော့ <a href="https://minthukyaw.bike" target="blank">minthukyaw.bike</a> ဆိုပြီး .bike extension နဲ့ယူထားတာပါ။
 <br>
@@ -28,7 +31,10 @@ name.com က domain ပါ။ domain တစ်ခုကို ကိုယ်က
 
 ## NameCheap
 <br>
-<img src="https://kinsta.com/wp-content/uploads/2016/12/namecheap-add-a-record-1.png" alt="image" width="330">
+<div class="c_img_container">
+<img src="https://kinsta.com/wp-content/uploads/2016/12/namecheap-add-a-record-1.png" alt="image" width="100%">
+</div>
+
 <br>
 ဒါကလဲ domain ပါပဲ။ သူက 1 yr free ssl လဲပါတယ်။ .me extension နဲ့ရမှာပါ။ ဘယ်လို ယူရမလဲ ဆိုတာတော့ ဆက်ဖတ်ကြည့်ပါ။
 <br>
@@ -36,7 +42,10 @@ name.com က domain ပါ။ domain တစ်ခုကို ကိုယ်က
 
 ## Canva
 <br>
-<img src="https://smallbiztrends.com/wp-content/uploads/2017/11/Canva.jpg" alt="image" width="330">
+<div class="c_img_container">
+<img src="https://smallbiztrends.com/wp-content/uploads/2017/11/Canva.jpg" alt="image" width="100%">
+</div>
+
 
 ဒါက design တွေဆွဲဖို့နေရာပါ။ free ပေးထားပေမဲ့ တချို့နေရာတွေ pro မှ ရတာမျိုးတွေအတွက် အဆင်ပြေသွားပါတယ်။ design နားမလည်သေးတဲ့ အတွက် ဒါလေးနဲ့ အဆင်ပြေပါတယ်။
 <br>
@@ -44,7 +53,9 @@ name.com က domain ပါ။ domain တစ်ခုကို ကိုယ်က
 
 ## .tech domain
 <br>
-<img src="https://www.101domain.com/images/flags/large/TECH.png" alt="image" width="330">
+<div class="c_img_container">
+  <img src="https://www.101domain.com/images/flags/large/TECH.png" alt="image" width="100%">
+</div>
 <br>
 
 ဒါကလဲ domain ပါပဲ။ .tech extension နဲ့ရမှာပါ။ email account နှစ်ခုကို 100 MB storage နဲ့ရပါတယ်။
@@ -53,7 +64,10 @@ name.com က domain ပါ။ domain တစ်ခုကို ကိုယ်က
 
 ## Pro badge 
 <br>
-<img src="https://pbs.twimg.com/media/DwVZZGPX0AAq6AP.jpg" alt="image" width="330">
+<div class="c_img_container">
+  <img src="https://pbs.twimg.com/media/DwVZZGPX0AAq6AP.jpg" alt="image" width="100%">
+</div>
+
 <br>
 ဒါကတော့ ဘာရယ် မဟုတ်ပါဘူး။ Github profile က pro ဆိုတဲ့ badge လေးပါ။
 <br>
@@ -61,7 +75,9 @@ name.com က domain ပါ။ domain တစ်ခုကို ကိုယ်က
 
 ## Frontend Master
 <br>
-<img src="https://frontendmasters.com/static-assets/welcome/og-GitHubStudents.jpg" alt="image" width="330">
+<div class="c_img_container">
+  <img src="https://frontendmasters.com/static-assets/welcome/og-GitHubStudents.jpg" alt="image" width="100%">
+</div>
 
 ဒါကတော့ အတန်ဆုံးနဲ့ ကျွန်တော် အကြိုက်ဆုံး pack ပါ။ monthly $30+ ပေးရပါတယ်။ အဲတာကို 6 months free ရအောင်လုပ်ပေးထားတာပါ။ အထဲက course တွေက လဲ Kyle Simpson (Author of You don't know book series), Evan Yu (Creator of Vue js) သူတို့ လို ဘဲကြီးတွေပါ သင်ပေးတဲ့ အတွက် Frontend dev တွေအတွက် redeem လုပ်ကို လုပ်ထားသင့်ပါတယ်။ framework developer အဆင့်ကနေ deep dive နိုင်ဖို့ အတော်လေး ကောင်းပါတယ်။
 <br>
