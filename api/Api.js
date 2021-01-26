@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 let BaseApi = axios.create({
-    baseURL: 'https://devtomm.unionpowerpac.com.mm/api'
+    baseURL: 'https://devtomm.herokuapp.com/api'
 })
 
 let Api = function() {

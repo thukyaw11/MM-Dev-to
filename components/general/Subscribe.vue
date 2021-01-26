@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="btn_parent_container mt-3">
-  <div class="button_container px-2 d-flex align-center justify-center normal">
+  <div class="button_container px-2 d-flex align-center justify-center normal" @click="modalVisible = true">
       {{ isSub ? 'Subscribed' : 'Subscribe'}}
   </div>
   </div>
