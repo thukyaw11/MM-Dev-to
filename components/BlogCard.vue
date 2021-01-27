@@ -13,8 +13,11 @@
           
           </NuxtLink>
 
-          <div class="view text--secondary">
-              {{postView ? postView : '' }} {{postView ? 'views' : ''}}
+          <div class="view text--secondary d-flex align-items-center">
+              <img src="icons/view.png" alt="" class="view-img mr-3"> 
+              <span>
+              {{postView ? postView : '0'}}
+              </span>
           </div>
       </div>
             <div class="info_container d-flex flex-column my-5 mx-2">
@@ -67,5 +70,8 @@ export default {
     border-radius: 50%;
     width: 40px;
     height: 40px;
+}
+.view-img {
+    height: 20px;
 }
 </style>
