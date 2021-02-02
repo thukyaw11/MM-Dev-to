@@ -72,3 +72,9 @@ export default {
 </script>
 
 
+<style>
+:root {
+  --theme: #FF0000;
+}
+</style>
+

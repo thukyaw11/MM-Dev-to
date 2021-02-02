@@ -1,7 +1,7 @@
 <template>
 
 <div class="justify-space-between d-flex align-center header-container">
-  <NuxtLink to="/" style="text-decoration: none; color: black">
+  <NuxtLink to="/" style="text-decoration: none;" class="nuxt-link">
   <h1> <span class="font-weight-light">MM</span> <b>DEV.TO</b></h1>
   </NuxtLink>
   <div class="d-flex justify-space-between align-center">
@@ -42,5 +42,8 @@ export default {
   top: 0;
   background: white;
   z-index: 9;
+}
+.nuxt-link {
+  color: var(--theme);
 }
 </style>

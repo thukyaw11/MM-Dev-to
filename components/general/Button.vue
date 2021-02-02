@@ -21,7 +21,7 @@ export default {
 <style>
 .button_container {
     color: #fff;
-    background: #000;
+    background: var(--theme);
     text-align: center;
     cursor: pointer;
       -webkit-touch-callout: none; /* iOS Safari */

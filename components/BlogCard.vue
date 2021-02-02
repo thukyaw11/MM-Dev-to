@@ -8,7 +8,8 @@
       <div class="author_container d-flex align-center py-3 pb-1 justify-space-between">
           <NuxtLink :to="`/blog/author/${blog.author.name}`" style="text-decoration: none; color: black;" class="d-flex align-center">
 
-          <img class="author_img" :src="blog.author.img">
+          <!-- <img class="author_img" :src="blog.author.img"> -->
+          <div class="author_img"></div>
           <div class="author_name ml-3">{{blog.author.name}}</div>
           
           </NuxtLink>
@@ -69,6 +70,7 @@ export default {
 .author_img {
     border-radius: 50%;
     width: 40px;
+    background: var(--theme);
     height: 40px;
 }
 .view-img {
