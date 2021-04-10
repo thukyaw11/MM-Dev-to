@@ -74,7 +74,7 @@ export default {
 
 <style>
 :root {
-  --theme: #FF0000;
+  --theme: #000000;
 }
 </style>
 
